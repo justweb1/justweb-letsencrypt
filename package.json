@@ -1,0 +1,28 @@
+{
+  "name": "justweb-letsencrypt",
+  "version": "0.0.1",
+  "description": "Webcomponent to automate Let's Encrypt ssl certificate issuance.",
+  "main": "justweb-letsencrypt.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justweb1/justweb-letsencrypt.git"
+  },
+  "keywords": [
+    "letsencrypt"
+  ],
+  "author": "Justin Weberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justweb1/justweb-letsencrypt/issues"
+  },
+  "homepage": "https://github.com/justweb1/justweb-letsencrypt#readme",
+  "dependencies": {
+    "letsencrypt-client": "github:quentinadam/node-letsencrypt-client"
+  }
+}

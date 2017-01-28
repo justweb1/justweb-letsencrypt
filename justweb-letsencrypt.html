@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`justweb-letsencrypt`
+Webcomponent to automate Let's Encrypt SSL certificate issuance.
+
+@demo demo/index.html 
+-->
+
+<dom-module id="justweb-letsencrypt">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2></h2>
+  </template>
+
+
+  <script>
+    Polymer({
+
+      is: 'justweb-letsencrypt',
+
+      properties: {
+        fbapp: {
+          type: Object,
+        },
+      },
+
+
+    });
+  </script>
+</dom-module>
