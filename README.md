@@ -6,9 +6,6 @@ Webcomponent to automate [Let's Encrypt](https://letsencrypt.org) ssl certificat
 
 **\<justweb-letsencrypt\>** uses the [node-letsencrypt-client](https://github.com/quentinadam/node-letsencrypt-client) by @quentinadam.
 
-## Prerequisites
-
-
 ## Installation
 
 ```
